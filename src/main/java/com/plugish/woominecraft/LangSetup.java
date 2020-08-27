@@ -9,7 +9,7 @@ import java.io.InputStream;
 
 class LangSetup {
 
-	private JavaPlugin plugin;
+	private final JavaPlugin plugin;
 
 	private static String resourcePath;
 

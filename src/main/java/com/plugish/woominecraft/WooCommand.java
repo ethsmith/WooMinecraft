@@ -8,7 +8,7 @@ import org.bukkit.command.CommandSender;
 public class WooCommand implements CommandExecutor {
 
 	public static WooMinecraft plugin = WooMinecraft.instance;
-	private static String chatPrefix = ChatColor.DARK_PURPLE + "[" + ChatColor.WHITE + "WooMinecraft" + ChatColor.DARK_PURPLE + "] " + ChatColor.DARK_PURPLE + "";
+	private static final String chatPrefix = ChatColor.DARK_PURPLE + "[" + ChatColor.WHITE + "WooMinecraft" + ChatColor.DARK_PURPLE + "] " + ChatColor.DARK_PURPLE + "";
 
 	@Override
 	public boolean onCommand( CommandSender sender, Command command, String label, String[] args ) {
